@@ -73,6 +73,7 @@ NOESY/ROESY → 相对构型 → 立体结构
 
 ## 分工与时间
 <!-- TODO(human): 决定两位成员如何分配 Slide 1–7，以及每页的时间（合计约 6 min） -->
+待定,我需要与他讨论
 
 ## 参考书（图可以引用这两本，都可追溯）
 - T. D. W. Claridge, *High-Resolution NMR Techniques in Organic Chemistry*, 3rd ed., Elsevier, 2016

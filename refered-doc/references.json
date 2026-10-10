@@ -1,0 +1,946 @@
+[
+ {
+  "id": "jeener1971-ampere-reprint",
+  "category": "primary",
+  "experiment": [
+   "COSY",
+   "principle"
+  ],
+  "title": "\"Pulse pair technique in high resolution NMR\" a reprint of the historical 1971 lecture notes on two-dimensional spectroscopy",
+  "authors": [
+   "Jeener, J.",
+   "Alewaeters, G."
+  ],
+  "year": 2016,
+  "venue": "Progress in Nuclear Magnetic Resonance Spectroscopy",
+  "volume": "94-95",
+  "pages": "75-80",
+  "doi": "10.1016/j.pnmrs.2016.03.002",
+  "url": "https://doi.org/10.1016/j.pnmrs.2016.03.002",
+  "oa_pdf_url": null,
+  "citations": 35,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "history",
+  "note_zh": "Jeener 1971 年 Ampère 暑期学校（Basko Polje）讲义的 2016 重印本；原讲义无 DOI，引用 1971 年设想时引此重印本。"
+ },
+ {
+  "id": "aue1976-2d-spectroscopy",
+  "category": "primary",
+  "experiment": [
+   "COSY",
+   "principle"
+  ],
+  "title": "Two-dimensional spectroscopy. Application to nuclear magnetic resonance",
+  "authors": [
+   "Aue, W. P.",
+   "Bartholdi, E.",
+   "Ernst, R. R."
+  ],
+  "year": 1976,
+  "venue": "The Journal of Chemical Physics",
+  "volume": "64(5)",
+  "pages": "2229-2246",
+  "doi": "10.1063/1.432450",
+  "url": "https://doi.org/10.1063/1.432450",
+  "oa_pdf_url": null,
+  "citations": 2735,
+  "quote": "The basic theory of two-dimensional spectroscopy is developed.",
+  "quote_source": "abstract (Crossref)",
+  "verified_via": "crossref",
+  "use_on_slide": "history|principle",
+  "note_zh": "首次系统建立 2D FT 谱学理论并实验演示（COSY 雏形）。"
+ },
+ {
+  "id": "nagayama1980-cosy-techniques",
+  "category": "primary",
+  "experiment": [
+   "COSY"
+  ],
+  "title": "Experimental techniques of two-dimensional correlated spectroscopy",
+  "authors": [
+   "Nagayama, K.",
+   "Kumar, A.",
+   "Wüthrich, K.",
+   "Ernst, R. R."
+  ],
+  "year": 1980,
+  "venue": "Journal of Magnetic Resonance (1969)",
+  "volume": "40(2)",
+  "pages": "321-334",
+  "doi": "10.1016/0022-2364(80)90255-3",
+  "url": "https://doi.org/10.1016/0022-2364(80)90255-3",
+  "oa_pdf_url": null,
+  "citations": 193,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "COSY 实验技术的早期详细描述。"
+ },
+ {
+  "id": "jeener1979-noesy",
+  "category": "primary",
+  "experiment": [
+   "NOESY"
+  ],
+  "title": "Investigation of exchange processes by two-dimensional NMR spectroscopy",
+  "authors": [
+   "Jeener, J.",
+   "Meier, B. H.",
+   "Bachmann, P.",
+   "Ernst, R. R."
+  ],
+  "year": 1979,
+  "venue": "The Journal of Chemical Physics",
+  "volume": "71(11)",
+  "pages": "4546-4553",
+  "doi": "10.1063/1.438208",
+  "url": "https://doi.org/10.1063/1.438208",
+  "oa_pdf_url": null,
+  "citations": 4269,
+  "quote": "Applications comprise the study of chemical exchange, of magnetization transfer by inter- and intramolecular relaxation in liquids",
+  "quote_source": "abstract (Crossref)",
+  "verified_via": "crossref",
+  "use_on_slide": "types|history",
+  "note_zh": "三脉冲 NOESY/EXSY 序列：混合期交叉弛豫或化学交换 → 空间接近信息。"
+ },
+ {
+  "id": "kumar1980-2d-noe",
+  "category": "primary",
+  "experiment": [
+   "NOESY"
+  ],
+  "title": "A two-dimensional nuclear Overhauser enhancement (2D NOE) experiment for the elucidation of complete proton-proton cross-relaxation networks in biological macromolecules",
+  "authors": [
+   "Kumar, A.",
+   "Ernst, R. R.",
+   "Wüthrich, K."
+  ],
+  "year": 1980,
+  "venue": "Biochemical and Biophysical Research Communications",
+  "volume": "95(1)",
+  "pages": "1-6",
+  "doi": "10.1016/0006-291x(80)90695-6",
+  "url": "https://doi.org/10.1016/0006-291x(80)90695-6",
+  "oa_pdf_url": null,
+  "citations": 1609,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "首次将 2D NOE 用于生物大分子，Wüthrich 蛋白质结构测定的基础。"
+ },
+ {
+  "id": "mueller1979-hmqc-precursor",
+  "category": "primary",
+  "experiment": [
+   "HMQC",
+   "HSQC"
+  ],
+  "title": "Sensitivity enhanced detection of weak nuclei using heteronuclear multiple quantum coherence",
+  "authors": [
+   "Müller, L."
+  ],
+  "year": 1979,
+  "venue": "Journal of the American Chemical Society",
+  "volume": "101(16)",
+  "pages": "4481-4484",
+  "doi": "10.1021/ja00510a007",
+  "url": "https://doi.org/10.1021/ja00510a007",
+  "oa_pdf_url": null,
+  "citations": 812,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "history|types",
+  "note_zh": "首次提出经 ¹H 间接检测弱核的异核多量子相干（inverse detection 概念）。"
+ },
+ {
+  "id": "bodenhausen1980-hsqc",
+  "category": "primary",
+  "experiment": [
+   "HSQC"
+  ],
+  "title": "Natural abundance nitrogen-15 NMR by enhanced heteronuclear spectroscopy",
+  "authors": [
+   "Bodenhausen, G.",
+   "Ruben, D. J."
+  ],
+  "year": 1980,
+  "venue": "Chemical Physics Letters",
+  "volume": "69(1)",
+  "pages": "185-189",
+  "doi": "10.1016/0009-2614(80)80041-8",
+  "url": "https://doi.org/10.1016/0009-2614(80)80041-8",
+  "oa_pdf_url": "http://infoscience.epfl.ch/record/80205",
+  "citations": 2292,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref+unpaywall",
+  "use_on_slide": "types",
+  "note_zh": "HSQC 原始文献（INEPT 基础的异核单量子相干）；EPFL 绿色 OA 落地页。"
+ },
+ {
+  "id": "bax1983-hmqc-jmr",
+  "category": "primary",
+  "experiment": [
+   "HMQC"
+  ],
+  "title": "Correlation of proton and nitrogen-15 chemical shifts by multiple quantum NMR",
+  "authors": [
+   "Bax, A.",
+   "Griffey, R. H.",
+   "Hawkins, B. L."
+  ],
+  "year": 1983,
+  "venue": "Journal of Magnetic Resonance (1969)",
+  "volume": "55(2)",
+  "pages": "301-315",
+  "doi": "10.1016/0022-2364(83)90241-x",
+  "url": "https://doi.org/10.1016/0022-2364(83)90241-x",
+  "oa_pdf_url": null,
+  "citations": 383,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "二维 HMQC 的经典原始文献（¹H–¹⁵N）。"
+ },
+ {
+  "id": "bax1983-hmqc-jacs",
+  "category": "primary",
+  "experiment": [
+   "HMQC"
+  ],
+  "title": "Sensitivity-enhanced correlation of nitrogen-15 and proton chemical shifts in natural-abundance samples via multiple quantum coherence",
+  "authors": [
+   "Bax, A.",
+   "Griffey, R. H.",
+   "Hawkins, B. L."
+  ],
+  "year": 1983,
+  "venue": "Journal of the American Chemical Society",
+  "volume": "105(26)",
+  "pages": "7188-7190",
+  "doi": "10.1021/ja00362a038",
+  "url": "https://doi.org/10.1021/ja00362a038",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "同组 HMQC 的 JACS 快报版（完整标题已经 Crossref 复核）。"
+ },
+ {
+  "id": "bax1986-hmbc",
+  "category": "primary",
+  "experiment": [
+   "HMBC"
+  ],
+  "title": "Proton and carbon-13 assignments from sensitivity-enhanced detection of heteronuclear multiple-bond connectivity by 2D multiple quantum NMR",
+  "authors": [
+   "Bax, A.",
+   "Summers, M. F."
+  ],
+  "year": 1986,
+  "venue": "Journal of the American Chemical Society",
+  "volume": "108(8)",
+  "pages": "2093-2094",
+  "doi": "10.1021/ja00268a061",
+  "url": "https://doi.org/10.1021/ja00268a061",
+  "oa_pdf_url": null,
+  "citations": 2296,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "HMBC 原始文献：2–3 键 ¹H–¹³C 长程相关，连接季碳与片段。"
+ },
+ {
+  "id": "braunschweiler1983-tocsy",
+  "category": "primary",
+  "experiment": [
+   "TOCSY"
+  ],
+  "title": "Coherence transfer by isotropic mixing: Application to proton correlation spectroscopy",
+  "authors": [
+   "Braunschweiler, L.",
+   "Ernst, R. R."
+  ],
+  "year": 1983,
+  "venue": "Journal of Magnetic Resonance (1969)",
+  "volume": "53(3)",
+  "pages": "521-528",
+  "doi": "10.1016/0022-2364(83)90226-3",
+  "url": "https://doi.org/10.1016/0022-2364(83)90226-3",
+  "oa_pdf_url": null,
+  "citations": 933,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "TOCSY 原始文献：各向同性混合，磁化沿整个自旋体系转移。"
+ },
+ {
+  "id": "bax1985-mlev17-tocsy",
+  "category": "primary",
+  "experiment": [
+   "TOCSY"
+  ],
+  "title": "MLEV-17-based two-dimensional homonuclear magnetization transfer spectroscopy",
+  "authors": [
+   "Bax, A.",
+   "Davis, D. G."
+  ],
+  "year": 1985,
+  "venue": "Journal of Magnetic Resonance (1969)",
+  "volume": "65(2)",
+  "pages": "355-360",
+  "doi": "10.1016/0022-2364(85)90018-6",
+  "url": "https://doi.org/10.1016/0022-2364(85)90018-6",
+  "oa_pdf_url": null,
+  "citations": 1236,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "MLEV-17 自旋锁定实现 HOHAHA/TOCSY，成为实用标准。"
+ },
+ {
+  "id": "bothnerby1984-roesy",
+  "category": "primary",
+  "experiment": [
+   "ROESY"
+  ],
+  "title": "Structure determination of a tetrasaccharide: transient nuclear Overhauser effects in the rotating frame",
+  "authors": [
+   "Bothner-By, A. A.",
+   "Stephens, R. L.",
+   "Lee, J.",
+   "Warren, C. D.",
+   "Jeanloz, R. W."
+  ],
+  "year": 1984,
+  "venue": "Journal of the American Chemical Society",
+  "volume": "106(3)",
+  "pages": "811-813",
+  "doi": "10.1021/ja00315a069",
+  "url": "https://doi.org/10.1021/ja00315a069",
+  "oa_pdf_url": null,
+  "citations": 1472,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "types|noesy",
+  "note_zh": "旋转坐标系 NOE（CAMELSPIN，后称 ROESY），用于 NOE 接近零的中等分子。"
+ },
+ {
+  "id": "ernst1992-nobel-lecture",
+  "category": "nobel",
+  "experiment": [
+   "principle"
+  ],
+  "title": "Nuclear Magnetic Resonance Fourier Transform Spectroscopy (Nobel Lecture)",
+  "authors": [
+   "Ernst, R. R."
+  ],
+  "year": 1992,
+  "venue": "Angewandte Chemie International Edition in English",
+  "volume": "31(7)",
+  "pages": "805-823",
+  "doi": "10.1002/anie.199208053",
+  "url": "https://doi.org/10.1002/anie.199208053",
+  "oa_pdf_url": null,
+  "citations": 172,
+  "quote": "he describes the evolution of the field from the first Fourier transform NMR spectra to two-, three-, and four-dimensional experiments",
+  "quote_source": "abstract (Crossref)",
+  "verified_via": "crossref",
+  "use_on_slide": "history|principle",
+  "note_zh": "Ernst 诺奖演讲，FT-NMR 到多维 NMR 的发展；演讲页 nobelprize.org/prizes/chemistry/1991/ernst/lecture/。"
+ },
+ {
+  "id": "nobel1991-ernst",
+  "category": "nobel",
+  "experiment": [],
+  "title": "The Nobel Prize in Chemistry 1991 (Richard R. Ernst)",
+  "authors": [
+   "Nobel Prize Outreach"
+  ],
+  "year": 1991,
+  "venue": "NobelPrize.org",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "url": "https://www.nobelprize.org/prizes/chemistry/1991/summary/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": "for his contributions to the development of the methodology of high resolution nuclear magnetic resonance (NMR) spectroscopy",
+  "quote_source": "nobelprize.org (prize motivation)",
+  "verified_via": "nobelprize.org",
+  "use_on_slide": "history",
+  "note_zh": "Ernst 独享 1991 年诺贝尔化学奖。"
+ },
+ {
+  "id": "nobel2002-wuthrich",
+  "category": "nobel",
+  "experiment": [],
+  "title": "The Nobel Prize in Chemistry 2002 (Kurt Wüthrich, one half)",
+  "authors": [
+   "Nobel Prize Outreach"
+  ],
+  "year": 2002,
+  "venue": "NobelPrize.org",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "url": "https://www.nobelprize.org/prizes/chemistry/2002/summary/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": "for his development of nuclear magnetic resonance spectroscopy for determining the three-dimensional structure of biological macromolecules in solution",
+  "quote_source": "nobelprize.org (prize motivation)",
+  "verified_via": "nobelprize.org",
+  "use_on_slide": "history",
+  "note_zh": "Wüthrich 获 2002 年诺贝尔化学奖一半（另一半 Fenn 与 Tanaka，质谱）。"
+ },
+ {
+  "id": "wuthrich2003-nobel-lecture",
+  "category": "nobel",
+  "experiment": [
+   "COSY",
+   "NOESY"
+  ],
+  "title": "NMR studies of structure and function of biological macromolecules (Nobel Lecture)",
+  "authors": [
+   "Wüthrich, K."
+  ],
+  "year": 2003,
+  "venue": "Journal of Biomolecular NMR",
+  "volume": "27(1)",
+  "pages": "13-39",
+  "doi": "10.1023/a:1024733922459",
+  "url": "https://doi.org/10.1023/a:1024733922459",
+  "oa_pdf_url": null,
+  "citations": 97,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref+pubmed",
+  "use_on_slide": "history",
+  "note_zh": "Wüthrich 诺奖演讲期刊版；演讲页 nobelprize.org/prizes/chemistry/2002/wuthrich/lecture/。"
+ },
+ {
+  "id": "claridge-hr-nmr-3e",
+  "category": "textbook",
+  "experiment": [
+   "COSY",
+   "TOCSY",
+   "HSQC",
+   "HMQC",
+   "HMBC",
+   "NOESY",
+   "ROESY"
+  ],
+  "title": "High-Resolution NMR Techniques in Organic Chemistry (3rd ed.)",
+  "authors": [
+   "Claridge, T. D. W."
+  ],
+  "year": 2016,
+  "venue": "Elsevier",
+  "volume": null,
+  "pages": "552 pp.",
+  "doi": null,
+  "isbn": "9780080999869",
+  "url": "https://openlibrary.org/isbn/9780080999869",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "openlibrary",
+  "use_on_slide": "types",
+  "note_zh": "各 2D 实验脉冲序列与应用的标准教科书，可引用示意图。"
+ },
+ {
+  "id": "silverstein-spectrometric-8e",
+  "category": "textbook",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMBC",
+   "NOESY"
+  ],
+  "title": "Spectrometric Identification of Organic Compounds (8th ed.)",
+  "authors": [
+   "Silverstein, R. M.",
+   "Webster, F. X.",
+   "Kiemle, D. J.",
+   "Bryce, D. L."
+  ],
+  "year": 2014,
+  "venue": "John Wiley & Sons",
+  "volume": null,
+  "pages": "464 pp.",
+  "doi": null,
+  "isbn": "9780470616376",
+  "url": "https://openlibrary.org/isbn/9780470616376",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "openlibrary",
+  "use_on_slide": "workflow",
+  "note_zh": "经典解析教材，含 MS→IR→1D→2D 流程。ISBN 已核；“第 8 版”和完整作者列表待对照出版社页面。"
+ },
+ {
+  "id": "keeler-understanding-nmr-2e",
+  "category": "textbook",
+  "experiment": [
+   "COSY",
+   "NOESY",
+   "HMQC",
+   "principle"
+  ],
+  "title": "Understanding NMR Spectroscopy (2nd ed.)",
+  "authors": [
+   "Keeler, J."
+  ],
+  "year": 2010,
+  "venue": "John Wiley & Sons",
+  "volume": null,
+  "pages": "526 pp.",
+  "doi": null,
+  "isbn": "9780470746080",
+  "url": "https://openlibrary.org/isbn/9780470746080",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "openlibrary",
+  "use_on_slide": "principle",
+  "note_zh": "讲 2D 通用原理（preparation–evolution–mixing–detection）的权威教材。"
+ },
+ {
+  "id": "keeler-ch7-2d-nmr",
+  "category": "tutorial",
+  "experiment": [
+   "COSY",
+   "HMQC",
+   "NOESY",
+   "principle"
+  ],
+  "title": "Understanding NMR Spectroscopy, Chapter 7: Two-dimensional NMR (author-hosted chapter)",
+  "authors": [
+   "Keeler, J."
+  ],
+  "year": 2010,
+  "venue": "University of Cambridge, Dept. of Chemistry",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "isbn": null,
+  "url": "https://www-keeler.ch.cam.ac.uk/lectures/",
+  "oa_pdf_url": "https://www-keeler.ch.cam.ac.uk/lectures/understanding/chapter_7.pdf",
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "webfetch",
+  "use_on_slide": "principle",
+  "note_zh": "作者官网免费 PDF，Slide 3 原理页的首选参考。"
+ },
+ {
+  "id": "field-organic-structures-2d-nmr",
+  "category": "textbook",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMBC",
+   "NOESY"
+  ],
+  "title": "Organic Structures from 2D NMR Spectra",
+  "authors": [
+   "Field, L. D.",
+   "Li, H. L.",
+   "Magill, A. M."
+  ],
+  "year": 2015,
+  "venue": "John Wiley & Sons",
+  "volume": null,
+  "pages": "328 pp.",
+  "doi": null,
+  "isbn": "9781118868928",
+  "url": "https://openlibrary.org/isbn/9781118868928",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "openlibrary",
+  "use_on_slide": "workflow",
+  "note_zh": "专门讲“从 2D 谱解结构”的习题式教材，Part 3 也可用。"
+ },
+ {
+  "id": "reynolds-enriquez-2002-pulse-sequences",
+  "category": "review",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMQC",
+   "HMBC",
+   "NOESY",
+   "ROESY"
+  ],
+  "title": "Choosing the Best Pulse Sequences, Acquisition Parameters, Postacquisition Processing Strategies, and Probes for Natural Product Structure Elucidation by NMR Spectroscopy",
+  "authors": [
+   "Reynolds, W. F.",
+   "Enríquez, R. G."
+  ],
+  "year": 2002,
+  "venue": "Journal of Natural Products",
+  "volume": "65(2)",
+  "pages": "221-244",
+  "doi": "10.1021/np010444o",
+  "isbn": null,
+  "url": "https://doi.org/10.1021/np010444o",
+  "oa_pdf_url": null,
+  "citations": 160,
+  "quote": "(COSY-90 vs COSY-45, NOESY vs T-ROESY, HSQC vs HMQC, HMBC vs CIGAR, etc.) are compared",
+  "quote_source": "abstract (Europe PMC, PMID 11858762)",
+  "verified_via": "crossref",
+  "use_on_slide": "hsqc-vs-hmqc|noesy",
+  "note_zh": "直接比较 HSQC vs HMQC、NOESY vs ROESY，支撑 Slide 5–6。"
+ },
+ {
+  "id": "buevich-2014-adequate-vs-hmbc",
+  "category": "review",
+  "experiment": [
+   "HMBC",
+   "HSQC"
+  ],
+  "title": "NMR Structure Elucidation of Small Organic Molecules and Natural Products: Choosing ADEQUATE vs HMBC",
+  "authors": [
+   "Buevich, A. V.",
+   "Williamson, R. T.",
+   "Martin, G. E."
+  ],
+  "year": 2014,
+  "venue": "Journal of Natural Products",
+  "volume": "77(8)",
+  "pages": "1942-1947",
+  "doi": "10.1021/np500445s",
+  "isbn": null,
+  "url": "https://doi.org/10.1021/np500445s",
+  "oa_pdf_url": null,
+  "citations": 41,
+  "quote": "The (1)H-(13)C HMBC experiment provides a versatile and relatively sensitive means of establishing predominantly (3)J(CH) connectivity",
+  "quote_source": "abstract (Europe PMC, PMID 25098228)",
+  "verified_via": "crossref",
+  "use_on_slide": "types|workflow",
+  "note_zh": "HMBC 主要给 ³J_CH，偶有 ²J/⁴J 干扰；可讲 HMBC 的局限。"
+ },
+ {
+  "id": "burns-2019-case-review",
+  "category": "review",
+  "experiment": [
+   "COSY",
+   "HMBC",
+   "HSQC"
+  ],
+  "title": "The role of computer-assisted structure elucidation (CASE) programs in the structure elucidation of complex natural products",
+  "authors": [
+   "Burns, D. C.",
+   "Mazzola, E. P.",
+   "Reynolds, W. F."
+  ],
+  "year": 2019,
+  "venue": "Natural Product Reports",
+  "volume": "36(6)",
+  "pages": "919-933",
+  "doi": "10.1039/c9np00007k",
+  "isbn": null,
+  "url": "https://doi.org/10.1039/c9np00007k",
+  "oa_pdf_url": null,
+  "citations": 103,
+  "quote": "Current CASE programs utilize mainly 2D COSY and HMBC correlation data for structure generation",
+  "quote_source": "abstract (Semantic Scholar)",
+  "verified_via": "semanticscholar",
+  "use_on_slide": "workflow",
+  "note_zh": "CASE 软件用 COSY+HMBC 自动生成候选结构，可作为流程页的延伸。"
+ },
+ {
+  "id": "nicolaou-snyder-2005-misassigned",
+  "category": "review",
+  "experiment": [
+   "HMBC",
+   "NOESY",
+   "COSY"
+  ],
+  "title": "Chasing Molecules That Were Never There: Misassigned Natural Products and the Role of Chemical Synthesis in Modern Structure Elucidation",
+  "authors": [
+   "Nicolaou, K. C.",
+   "Snyder, S. A."
+  ],
+  "year": 2005,
+  "venue": "Angewandte Chemie International Edition",
+  "volume": "44(7)",
+  "pages": "1012-1044",
+  "doi": "10.1002/anie.200460864",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/anie.200460864",
+  "oa_pdf_url": null,
+  "citations": 609,
+  "quote": "a battery of advanced spectroscopic methods, such as multidimensional NMR spectroscopy and high-resolution mass spectrometry",
+  "quote_source": "abstract (Europe PMC, PMID 15688428)",
+  "verified_via": "crossref",
+  "use_on_slide": "why-2d",
+  "note_zh": "天然产物结构误判的经典综述。注意同标题勘误 10.1002/anie.200590046，勿引错。"
+ },
+ {
+  "id": "albuquerque-2024-reassignment-qm",
+  "category": "review",
+  "experiment": [
+   "HMBC",
+   "NOESY",
+   "HSQC"
+  ],
+  "title": "Are we still chasing molecules that were never there? The role of quantum chemical simulations of NMR parameters in structural reassignment of natural products",
+  "authors": [
+   "de Albuquerque, A. C. F.",
+   "Martorano, L. H.",
+   "dos Santos, F. M. Jr."
+  ],
+  "year": 2024,
+  "venue": "Frontiers in Natural Products",
+  "volume": "2",
+  "pages": "1321043",
+  "doi": "10.3389/fntpr.2023.1321043",
+  "isbn": null,
+  "url": "https://doi.org/10.3389/fntpr.2023.1321043",
+  "oa_pdf_url": "https://www.frontiersin.org/articles/10.3389/fntpr.2023.1321043/pdf?isPublishedV2=False",
+  "citations": 13,
+  "quote": "structural misassignment of natural products are still a recurrence theme in the modern literature",
+  "quote_source": "abstract (Semantic Scholar)",
+  "verified_via": "semanticscholar",
+  "use_on_slide": "why-2d",
+  "note_zh": "2024 OA（CC BY）综述，更新 Nicolaou 2005；作者只核到前三位。"
+ },
+ {
+  "id": "kupce-claridge-2017-noah",
+  "category": "review",
+  "experiment": [
+   "HSQC",
+   "HMQC",
+   "HMBC",
+   "COSY",
+   "NOESY",
+   "TOCSY"
+  ],
+  "title": "NOAH: NMR Supersequences for Small Molecule Analysis and Structure Elucidation",
+  "authors": [
+   "Kupče, Ē.",
+   "Claridge, T. D. W."
+  ],
+  "year": 2017,
+  "venue": "Angewandte Chemie International Edition",
+  "volume": "56(39)",
+  "pages": "11779-11783",
+  "doi": "10.1002/anie.201705506",
+  "isbn": null,
+  "url": "https://doi.org/10.1002/anie.201705506",
+  "oa_pdf_url": "https://ora.ox.ac.uk/objects/uuid:c58bc22d-ce93-442c-bfa2-1ac01dbe0fd8/files/m6405a017c5f7ab764d687b999e773ced",
+  "citations": 93,
+  "quote": "such as HSQC, HMQC, HMBC, COSY, NOESY, TOCSY, and similar, can be recorded in a single measurement",
+  "quote_source": "abstract (Crossref)",
+  "verified_via": "crossref",
+  "use_on_slide": "types",
+  "note_zh": "列出小分子常规 2D 实验套组，并介绍一次测完多种 2D 的 NOAH 方法（可作“现状/前沿”一句话）。"
+ },
+ {
+  "id": "chontzopoulou-2025-jchemed-teaching",
+  "category": "tutorial",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMBC",
+   "TOCSY"
+  ],
+  "title": "Development of a Teaching Approach for Structure Elucidation Using 1D and 2D Homonuclear and Heteronuclear NMR Spectra",
+  "authors": [
+   "Chontzopoulou, E.",
+   "Tzani, A.",
+   "Paschalidou, K.",
+   "Zoupanou, N.",
+   "Mavromoustakos, T."
+  ],
+  "year": 2025,
+  "venue": "Journal of Chemical Education",
+  "volume": "102(8)",
+  "pages": "3226-3233",
+  "doi": "10.1021/acs.jchemed.4c00402",
+  "isbn": null,
+  "url": "https://doi.org/10.1021/acs.jchemed.4c00402",
+  "oa_pdf_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jchemed.4c00402?ref=article_openPDF",
+  "citations": 4,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "workflow",
+  "note_zh": "面向初学者的 1D+2D 逐步解析教学文章（OA），最贴合无 NMR 基础的听众。"
+ },
+ {
+  "id": "np-mrd",
+  "category": "data",
+  "experiment": [
+   "HSQC",
+   "HMBC",
+   "COSY"
+  ],
+  "title": "Natural Products Magnetic Resonance Database (NP-MRD)",
+  "authors": [],
+  "year": null,
+  "venue": "np-mrd.org",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "isbn": null,
+  "url": "https://np-mrd.org/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": "The NP-MRD is a freely available cloud-based, user-friendly, FAIR electronic database.",
+  "quote_source": "np-mrd.org home page",
+  "verified_via": "webfetch",
+  "use_on_slide": "figures",
+  "note_zh": "免费天然产物 NMR 数据库；是否有 2D 谱需逐条查看。"
+ },
+ {
+  "id": "bmrb-metabolomics",
+  "category": "data",
+  "experiment": [
+   "HSQC"
+  ],
+  "title": "BMRB Metabolomics (small-molecule NMR data)",
+  "authors": [],
+  "year": null,
+  "venue": "Biological Magnetic Resonance Data Bank, UConn Health",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "isbn": null,
+  "url": "https://bmrb.io/metabolomics/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": "Download entry data (incl. raw NMR data)",
+  "quote_source": "bmrb.io/metabolomics",
+  "verified_via": "webfetch",
+  "use_on_slide": "figures",
+  "note_zh": "确认有 2D HSQC 与原始数据下载；引用前读 Data policy。"
+ },
+ {
+  "id": "reich-collection-nmr",
+  "category": "data",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMBC",
+   "NOESY"
+  ],
+  "title": "Hans Reich's Collection: NMR Resources (Organic Chemistry Data)",
+  "authors": [
+   "Reich, H. J."
+  ],
+  "year": null,
+  "venue": "organicchemistrydata.org (ACS Division of Organic Chemistry)",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "isbn": null,
+  "url": "https://organicchemistrydata.org/hansreich/resources/nmr/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": "For citation: \"Hans Reich's Collection.\"",
+  "quote_source": "organicchemistrydata.org",
+  "verified_via": "webfetch",
+  "use_on_slide": "figures",
+  "note_zh": "有 NMR Techniques 栏目；具体 2D 页面需手动确认。"
+ },
+ {
+  "id": "ottawa-nmr-facility-blog",
+  "category": "data",
+  "experiment": [
+   "COSY",
+   "HSQC",
+   "HMBC"
+  ],
+  "title": "University of Ottawa NMR Facility Blog",
+  "authors": [
+   "Facey, G."
+  ],
+  "year": null,
+  "venue": "u-of-o-nmr-facility.blogspot.com",
+  "volume": null,
+  "pages": null,
+  "doi": null,
+  "isbn": null,
+  "url": "https://u-of-o-nmr-facility.blogspot.com/",
+  "oa_pdf_url": null,
+  "citations": null,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "webfetch",
+  "use_on_slide": "figures",
+  "note_zh": "有蔗糖的真实 COSY / edited-HSQC / HMBC 谱（2019/05 “Fast 2D Data Collection - NOAH and NUS”），Slide 1/4 配图首选。"
+ },
+ {
+  "id": "reynolds-burns-2012-hsqc-hmbc",
+  "category": "review",
+  "experiment": [
+   "HSQC",
+   "HMBC"
+  ],
+  "title": "Getting the Most Out of HSQC and HMBC Spectra",
+  "authors": [
+   "Reynolds, W. F.",
+   "Burns, D. C."
+  ],
+  "year": 2012,
+  "venue": "Annual Reports on NMR Spectroscopy",
+  "volume": "76",
+  "pages": "1-21",
+  "doi": "10.1016/B978-0-12-397019-0.00001-7",
+  "isbn": null,
+  "url": "https://doi.org/10.1016/B978-0-12-397019-0.00001-7",
+  "oa_pdf_url": null,
+  "citations": 19,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "hsqc-vs-hmqc|types",
+  "note_zh": "HSQC/HMBC 参数与解读要点，支撑 Slide 4–5。"
+ },
+ {
+  "id": "molinski-2010-microscale",
+  "category": "review",
+  "experiment": [
+   "HSQC",
+   "HMBC",
+   "COSY"
+  ],
+  "title": "Microscale methodology for structure elucidation of natural products",
+  "authors": [
+   "Molinski, T. F."
+  ],
+  "year": 2010,
+  "venue": "Current Opinion in Biotechnology",
+  "volume": "21",
+  "pages": "819-826",
+  "doi": "10.1016/j.copbio.2010.09.003",
+  "isbn": null,
+  "url": "https://doi.org/10.1016/j.copbio.2010.09.003",
+  "oa_pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2982861/",
+  "citations": 55,
+  "quote": null,
+  "quote_source": null,
+  "verified_via": "crossref",
+  "use_on_slide": "why-2d|workflow",
+  "note_zh": "微量样品天然产物结构解析综述（PMC OA）。"
+ }
+]
