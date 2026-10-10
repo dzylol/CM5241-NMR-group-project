@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Part 2 文献审阅报告</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&amp;display=swap">
+<style>
+body{margin:0;background:#F4F5F7}
+a{color:#0B5F66}a:hover{color:#06393D}
+</style>
+</helmet>
+<div style="background: #F4F5F7; color: #16181D; font-family: 'IBM Plex Sans', 'PingFang SC', 'Noto Sans SC', sans-serif; font-size: 16px; line-height: 1.6; min-height: 100vh">
+<div style="max-width: 1120px; margin: 0 auto; padding: 56px 24px 96px; display: flex; flex-direction: column; gap: 56px">
+
+<header style="display: flex; flex-direction: column; gap: 20px; border-bottom: 2px solid #16181D; padding-bottom: 32px">
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #4A505C">CM5241 Group Project · Topic 9 · Part 2 原理组</div>
+<h1 style="margin: 0; font-family: 'Source Serif 4', 'Songti SC', serif; font-weight: 600; font-size: 48px; line-height: 1.15">2D NMR 文献审阅报告</h1>
+<p style="margin: 0; max-width: 760px; font-size: 18px; color: #3A3F4A">给做 slide 的组员：下载的 6 篇 PDF 各讲了什么、每一页 slide 该引哪几篇、还有哪些事项要人工核对。全部文献信息见仓库 <span style="font-family: 'IBM Plex Mono', monospace; font-size: 15px">refered-doc/index.md</span>。</p>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 8px">
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 16px 20px"><div style="font-family: 'Source Serif 4', serif; font-size: 36px; font-weight: 600; color: {{accent}}">35</div><div style="font-size: 14px; color: #4A505C">条已核实文献</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 16px 20px"><div style="font-family: 'Source Serif 4', serif; font-size: 36px; font-weight: 600; color: {{accent}}">6</div><div style="font-size: 14px; color: #4A505C">篇 PDF 在本地（5 篇进 git）</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 16px 20px"><div style="font-family: 'Source Serif 4', serif; font-size: 36px; font-weight: 600; color: {{accent}}">7</div><div style="font-size: 14px; color: #4A505C">页 slide 待制作（约 6 min）</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 16px 20px"><div style="font-family: 'Source Serif 4', serif; font-size: 36px; font-weight: 600; color: #A34A06">7</div><div style="font-size: 14px; color: #4A505C">项待人工核对</div></div>
+</div>
+</header>
+
+<section style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 30px">1 · 待人工核对</h2>
+<p style="margin: 0; color: #3A3F4A">勾掉一项就在仓库里改对应文件。课程要求 “authentic, traceable data”，没核对的内容不要上 slide。</p>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 8px 24px; display: flex; flex-direction: column">
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>Slide 分工与时间</b>：和搭档商量 Slide 1–7 怎么分，填进 <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px">part2-principles/outline.md</span>。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>Silverstein 的版本与作者</b>：Open Library 只列了 Kiemle 一位作者，“第 8 版”要对照 Wiley 官网或书脊确认。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>配图授权</b>：Ottawa NMR blog 的蔗糖 COSY / HSQC / HMBC 谱是首选配图，截图前确认原帖和转载条件，图注写明出处。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>谱图数据库</b>：NP-MRD 和 Reich 的网站有没有真的 2D 谱，还没人点进去看过。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>Bodenhausen 1980 是扫描件</b>：提取出的文字识别错误很多（如 “SPECTROSCOL’Y”），引用原文请对照 PDF 图像。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; border-bottom: 1px solid #E6E8EC; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>NOAH 那篇有版权</b>：经 NUS 图书馆下载，只在你本地、没进 git。要不要分享给组员由你决定。</span></label>
+<label style="display: flex; gap: 14px; align-items: flex-start; padding: 14px 0; cursor: pointer"><input type="checkbox" style="width: 20px; height: 20px; margin-top: 3px; flex-shrink: 0"><span><b>AI 使用声明</b>：课程允许用 AI，但要在作业末尾附 note 或 “Methods section” 说明（Lecture 1 slide 72–77）。</span></label>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 30px">2 · 已下载的 6 篇 PDF</h2>
+<p style="margin: 0; color: #3A3F4A">位置：<span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px">refered-doc/paper/</span>，文件名就是文献 id。按“对做 slide 的用处”排序。</p>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+
+<article style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 3 原理</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #EEEFF2; color: #3A3F4A">29 页 · 作者官网公开</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">Keeler — Understanding NMR Spectroscopy, Ch. 7: Two-dimensional NMR</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">keeler2010-ch7-2d-nmr.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li><b>§7.1.1</b> 通用方案：信号是两个时间变量 t1、t2 的函数，做两次 Fourier transform 得到二维频谱。Slide 3 的四段式脉冲序列直接照这一节讲。</li>
+<li><b>§7.1.2</b> 怎么读一个峰：用 F1 = 20 Hz、F2 = 80 Hz 的例子解释交叉峰的含义，适合给零基础听众画示意图。</li>
+<li><b>§7.4</b> COSY、DQF-COSY 和异核相关实验，可以补充 Slide 4。</li>
+</ul>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 7 流程</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #EEEFF2; color: #3A3F4A">8 页 · CC BY</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">Chontzopoulou et al. 2025, J. Chem. Educ. 102, 3226</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">chontzopoulou-2025-jchemed-teaching.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li>面向学生的教学文章：先预测应出现的峰，再把 1D 和 2D 谱放在一起逐步归属。</li>
+<li>听众没有 NMR 基础，Slide 7 的解析流程用它的步骤最合适。</li>
+<li>CC BY 许可：图可以直接用，注明出处即可。</li>
+</ul>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 1 为什么需要 2D</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #EEEFF2; color: #3A3F4A">16 页 · CC BY</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">de Albuquerque, Martorano &amp; dos Santos Jr 2024, Front. Nat. Prod. 2</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">albuquerque-2024-reassignment-qm.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li>综述 2019–2023 年的天然产物结构误判与修正案例：即使有现代谱学手段，结构仍会定错。</li>
+<li>可以作为 Slide 1 的“动机”：结构解析难，需要多种 2D 实验互相印证。</li>
+<li>作者就是这三位，数据库里“只核对到前三位作者”的问题已经解决。</li>
+</ul>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 1 / 7</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #EEEFF2; color: #3A3F4A">13 页 · PMC 作者稿</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">Molinski 2010, Curr. Opin. Biotechnol. 21, 819</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">molinski-2010-microscale.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li>microcryoprobe NMR 让结构解析可以在只有几个 nanomole 的样品上完成。</li>
+<li>可以用来说明 2D NMR 的实际优势：样品用量小、不破坏样品。这一点和课程里的 sample prep 流程能接上。</li>
+</ul>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 2 / 5</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #EEEFF2; color: #3A3F4A">5 页 · 扫描件</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">Bodenhausen &amp; Ruben 1980, Chem. Phys. Lett. 69, 185</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">bodenhausen1980-hsqc.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li>HSQC 的原始论文：用二维 FT 和两次极化转移，通过 ¹H 去检测灵敏度低的核（原文做的是天然丰度 ¹⁵N）。</li>
+<li>历史时间线上 1980 年的节点；也可以在 Slide 5 解释“inverse detection 为什么更灵敏”时引用。</li>
+</ul>
+</article>
+
+<article style="background: #FFFFFF; border: 1px dashed #A34A06; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #E2F0F1; color: #0B5F66">Slide 4 种类</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #FBEBDD; color: #8A3E05">5 页 · 有版权，仅本地</span></div>
+<h3 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 21px; line-height: 1.3">Kupče &amp; Claridge 2017, Angew. Chem. Int. Ed. 56, 11779</h3>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4A505C">kupce-claridge-2017-noah.pdf</div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px">
+<li>NOAH supersequence：HSQC、HMBC、COSY、NOESY 等小分子常用 2D 实验可以在一次测量里全部采完。</li>
+<li>Slide 4 末尾可以用一句话讲“现状和前沿”。每页都是图片，文字搜不到，要看图读。</li>
+</ul>
+</article>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 30px">3 · 每页 slide 引哪几篇</h2>
+<p style="margin: 0; color: #3A3F4A"><b>粗体</b> = 本地有 PDF。其余文献的 DOI 链接都在 index.md 里。</p>
+<div style="overflow-x: auto; background: #FFFFFF; border: 1px solid #D5D8DE; border-radius: 8px">
+<table style="width: 100%; min-width: 760px; border-collapse: collapse; font-size: 15px">
+<thead><tr style="background: #16181D; color: #FFFFFF; text-align: left"><th style="padding: 12px 16px; width: 180px">Slide</th><th style="padding: 12px 16px">主要引用</th><th style="padding: 12px 16px; width: 260px">配图来源</th></tr></thead>
+<tbody>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top"><td style="padding: 14px 16px"><b>1</b> 为什么 1D 不够</td><td style="padding: 14px 16px"><b>Albuquerque 2024</b>，<b>Molinski 2010</b>，Nicolaou &amp; Snyder 2005（误判结构的经典综述）</td><td style="padding: 14px 16px">Ottawa blog 蔗糖 1D 和 2D 谱对比</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top; background: #FAFAFB"><td style="padding: 14px 16px"><b>2</b> 历史</td><td style="padding: 14px 16px">Jeener 1971 讲义（2016 重印本），Aue 1976，Jeener 1979，Müller 1979，<b>Bodenhausen 1980</b>，Bax 1983，Braunschweiler 1983，Bothner-By 1984，Bax &amp; Summers 1986，诺奖 1991 / 2002</td><td style="padding: 14px 16px">nobelprize.org 官方页</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top"><td style="padding: 14px 16px"><b>3</b> 通用原理</td><td style="padding: 14px 16px"><b>Keeler Ch. 7 §7.1</b>，Aue 1976，Ernst 诺奖演讲 1992</td><td style="padding: 14px 16px">按 Keeler §7.1.2 自己画示意图</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top; background: #FAFAFB"><td style="padding: 14px 16px"><b>4</b> 种类总览</td><td style="padding: 14px 16px">Claridge 2016（教科书），<b>Kupče &amp; Claridge 2017</b>，Buevich 2014（HMBC 主要看 ³J_CH），Reynolds &amp; Burns 2012</td><td style="padding: 14px 16px">Ottawa blog COSY / HSQC / HMBC</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top"><td style="padding: 14px 16px"><b>5</b> HSQC vs HMQC</td><td style="padding: 14px 16px">Reynolds &amp; Enríquez 2002（直接比较两者），<b>Bodenhausen 1980</b>，Bax–Griffey–Hawkins 1983</td><td style="padding: 14px 16px">Claridge 书中的脉冲序列图</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top; background: #FAFAFB"><td style="padding: 14px 16px"><b>6</b> NOESY / ROESY</td><td style="padding: 14px 16px">Jeener 1979，Kumar–Ernst–Wüthrich 1980，Bothner-By 1984，Reynolds &amp; Enríquez 2002</td><td style="padding: 14px 16px">由 Part 3 的 NOESY 实例提供</td></tr>
+<tr style="border-top: 1px solid #E6E8EC; vertical-align: top"><td style="padding: 14px 16px"><b>7</b> 解析流程</td><td style="padding: 14px 16px"><b>Chontzopoulou 2025</b>，Silverstein（教科书），Field et al. 2015，Burns 2019（CASE 软件）</td><td style="padding: 14px 16px">Chontzopoulou 2025 的流程图（CC BY）</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 30px">4 · Slide 2 时间线（已在 Crossref / nobelprize.org 核实）</h2>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1971</div><div style="font-size: 15px">Jeener 在 Ampère 暑期学校提出二维实验的设想</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">PNMRS 2016, 94–95, 75</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1976</div><div style="font-size: 15px">Aue、Bartholdi、Ernst 建立 2D FT 理论（COSY）</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">J. Chem. Phys. 64, 2229</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1979</div><div style="font-size: 15px">NOESY 序列；Müller 提出 inverse detection</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">JCP 71, 4546 · JACS 101, 4481</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1980</div><div style="font-size: 15px">HSQC（Bodenhausen &amp; Ruben）</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">CPL 69, 185</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1983</div><div style="font-size: 15px">HMQC（Bax 等）；TOCSY（Braunschweiler &amp; Ernst）</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">JMR 55, 301 · JMR 53, 521</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1984</div><div style="font-size: 15px">旋转坐标系 NOE，后来称为 ROESY</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">JACS 106, 811</div></div>
+<div style="background: #FFFFFF; border: 1px solid #D5D8DE; border-top: 4px solid {{accent}}; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1986</div><div style="font-size: 15px">HMBC（Bax &amp; Summers）</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #4A505C; margin-top: 8px">JACS 108, 2093</div></div>
+<div style="background: #16181D; color: #FFFFFF; border-radius: 8px; padding: 18px"><div style="font-family: 'Source Serif 4', serif; font-size: 28px; font-weight: 600">1991 · 2002</div><div style="font-size: 15px">Ernst 获诺奖（FT 与 2D NMR）；Wüthrich 获诺奖（生物大分子结构）</div><div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #C9CDD4; margin-top: 8px">nobelprize.org</div></div>
+</div>
+</section>
+
+<footer style="border-top: 1px solid #D5D8DE; padding-top: 20px; font-size: 14px; color: #4A505C">来源：<span style="font-family: 'IBM Plex Mono', monospace">refered-doc/references.json</span>（35 条，Crossref / Open Library / nobelprize.org 核实于 2026-10-10）· 课程要求出自 Lecture 1 Course Intro slides 53–77。</footer>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#0B5F66","options":["#0B5F66","#1D4ED8","#7C3AED","#A34A06"]},"$preview":{"width":1280,"height":3600}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#0B5F66' };
+  }
+}
+</script>
+</body>
+</html>
